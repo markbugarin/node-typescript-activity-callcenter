@@ -1,0 +1,26 @@
+{
+    "keepSettings": {
+        "type": 2,
+        "amount": 10
+    },
+    "auditFilename": "audit.json",
+    "hashType": "md5",
+    "extension": "",
+    "files": [
+        {
+            "date": 1687229934561,
+            "name": "C:\\Users\\bugma\\Desktop\\node-typescript-starter\\logs\\access.2023-06-20.log",
+            "hash": "675dd002737e98f97a2d1c28d58513d1"
+        },
+        {
+            "date": 1687248404720,
+            "name": "C:\\Users\\bugma\\Documents\\node-typescript-activity-callcenter\\logs\\access.2023-06-20.log",
+            "hash": "eed3a12ecac3e624af84eb1630b4a162"
+        },
+        {
+            "date": 1687310186243,
+            "name": "C:\\Users\\bugma\\Documents\\node-typescript-activity-callcenter\\logs\\access.2023-06-21.log",
+            "hash": "5144f2247fd1be3431ad1afa64469cb0"
+        }
+    ]
+}

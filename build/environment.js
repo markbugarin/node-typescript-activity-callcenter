@@ -24,9 +24,15 @@ var __importStar = (this && this.__importStar) || function (mod) {
 };
 var _a, _b;
 Object.defineProperty(exports, "__esModule", { value: true });
-var dotenv = __importStar(require("dotenv"));
+const dotenv = __importStar(require("dotenv"));
 dotenv.config();
 exports.default = {
-    APP_PORT: (_a = process.env.APP_PORT) !== null && _a !== void 0 ? _a : 5555,
+    APP_PORT: (_a = process.env.APP_PORT) !== null && _a !== void 0 ? _a : '5555',
     APP_ENVIRONMENT: (_b = process.env.APP_ENVIRONMENT) !== null && _b !== void 0 ? _b : 'local',
+    DB_HOST: process.env.DB_HOST,
+    DB_PORT: process.env.DB_PORT,
+    DB_SCHEMA: process.env.DB_SCHEMA,
+    DB_DIALECT: process.env.DB_DIALECT,
+    DB_USERNAME: process.env.DB_USERNAME,
+    DB_PASSWORD: process.env.DB_PASSWORD,
 };

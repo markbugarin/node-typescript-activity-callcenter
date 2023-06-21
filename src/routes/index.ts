@@ -1,3 +1,6 @@
-import gtgRouter from './gtgRoute'
+import gtgRoute from './gtgRoute'
+import employeesRoute from './employeesRoute'
+import productsRoute from './productsRoute'
+import queryHandlingRoute from './queryHandlingRoute'
 
-export { gtgRouter }
+export { gtgRoute, employeesRoute, productsRoute, queryHandlingRoute }
